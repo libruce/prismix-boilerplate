@@ -1,0 +1,13 @@
+{
+  "mixers": [
+    {
+        "input": [
+            "prisma/base.prisma",
+            "./src/users/users.prisma",
+            "./src/articles/articles.prisma"
+
+        ],
+        "output": "prisma/schema.prisma"
+    }
+  ]
+}
